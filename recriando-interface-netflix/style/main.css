@@ -44,7 +44,10 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: url('/img/capa.jpg');         /*editar erro no final-parte4 12-15min */
+    /*contribuição: */
+    background: linear-gradient(rgb(0,0,0,.50),rgb(0,0,0,.50) 100%), url('../img/capa.jpg');
+   
+    /*background: url('/img/capa.jpg');   =>      editar erro no final-parte4 12-15min */
 
     height: 400px;
     background-size: cover;
